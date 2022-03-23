@@ -32,7 +32,7 @@ pixelCount.innerHTML = "Current pixel size is: " + currentRow + "x" + currentCol
 pixelCount.className = "pixel-count"
 
 let sketchContainer = document.createElement('div');
-sketchContainer.style.border = "thick solid black";
+sketchContainer.style.border = "thick solid blue";
 sketchContainer.className = "sketch-container"
 
 let resetButton = document.createElement('button');
